@@ -1,0 +1,2 @@
+function e(e,t){return Promise.resolve("It was ".concat(t.toUpperCase()," on the element: ").concat(e.nodeName,", id: ").concat(e.id,"."))}var t=function(e){var t=document.createElement("div");t.classList.add("message"),t.innerHTML=e,document.body.appendChild(t)},n=document.getElementById("login"),c=document.getElementById("password"),d=document.getElementById("submit");e(n,"click").then(t),e(c,"click").then(t),e(d,"click").then(t),e(n,"input").then(t),e(c,"input").then(t),e(n,"blur").then(t),e(c,"blur").then(t),e(d,"blur").then(t);
+//# sourceMappingURL=index.e292d338.js.map
